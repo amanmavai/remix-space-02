@@ -58,7 +58,7 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: `npm run dev`,
+    command: `cross-env PORT=${PORT} npm run dev`,
     port: Number(PORT),
     reuseExistingServer: true,
   },

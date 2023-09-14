@@ -7,7 +7,8 @@
     "dev": "remix dev",
     "start": "remix-serve build",
     "typecheck": "tsc",
-    "clean": "rimraf ./node_modules/.cache ./build ./public/build"
+    "clean": "rimraf ./node_modules/.cache ./build ./public/build",
+    "test:e2e:dev": "cross-env PORT=3000 playwright test"
   },
   "dependencies": {
     "@remix-run/css-bundle": "^1.19.3",
