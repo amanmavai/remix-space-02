@@ -1,0 +1,4 @@
+- [x] prettier
+- [x] eslint
+- [x] typescript
+- [x] tailwindcss
