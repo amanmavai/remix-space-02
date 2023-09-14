@@ -16,5 +16,6 @@ $ npm install -D rimraf
 
 # add playwright
 $ npm init playwright@latest
+$ npm install -D cross-env
 
 ```
