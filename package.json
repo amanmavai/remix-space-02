@@ -5,7 +5,8 @@
     "build": "remix build",
     "dev": "remix dev",
     "start": "remix-serve build",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "clean": "rimraf ./node_modules/.cache ./build ./public/build"
   },
   "dependencies": {
     "@remix-run/css-bundle": "^1.19.3",
@@ -26,6 +27,7 @@
     "eslint-config-prettier": "^9.0.0",
     "postcss-import": "^15.1.0",
     "prettier": "^3.0.3",
+    "rimraf": "^5.0.1",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.0.4"
   },

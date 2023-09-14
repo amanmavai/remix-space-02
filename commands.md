@@ -11,4 +11,7 @@ $ npm install -D tailwindcss
 $ npx tailwindcss init --ts
 $ npm install -D autoprefixer postcss-import
 
+# add clean command
+$ npm install -D rimraf
+
 ```
