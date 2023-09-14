@@ -14,4 +14,7 @@ $ npm install -D autoprefixer postcss-import
 # add clean command
 $ npm install -D rimraf
 
+# add playwright
+$ npm init playwright@latest
+
 ```
