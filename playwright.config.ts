@@ -1,6 +1,6 @@
 import {defineConfig, devices} from "@playwright/test";
 
-const PORT = Number(process.env.PORT || 3000);
+const PORT = Number(3000);
 if (!PORT) {
   throw new Error(`PORT environment variable is required`);
 }
@@ -58,7 +58,7 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: process.env.CI ? `cross-env PORT=${PORT} npm run start:mocks` : `cross-env PORT=${PORT} npm run dev`,
+    command: `npm run dev`,
     port: Number(PORT),
     reuseExistingServer: true,
   },
