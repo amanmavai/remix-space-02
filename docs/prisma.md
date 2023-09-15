@@ -86,3 +86,10 @@ migrations/
 // You must commit the entire prisma/migrations folder to source control. This includes the prisma/migrations/migration_lock.toml file, which is used to detect if you have attempted to change providers.
 
 ```
+
+```js
+// To seed the database, run the db seed CLI command:
+$ npx prisma db seed
+
+
+```
