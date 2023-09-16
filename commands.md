@@ -45,4 +45,6 @@ $ npm install bcryptjs
 $ npm install -D @types/bcryptjs
 
 $ npm install -D ts-node @types/node
+
+$ npm install tiny-invariant
 ```
